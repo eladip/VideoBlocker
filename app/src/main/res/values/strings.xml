@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">חוסם וידאו</string>
+    <string name="accessibility_desc">השירות מזהה פתיחה של אפליקציות ואתרי וידאו וחוסם אותם. הכיבוי מוגן בסיסמה מתוך האפליקציה.</string>
+    <string name="admin_desc">מונע הסרה של חוסם הווידאו ללא סיסמה.</string>
+</resources>
