@@ -116,7 +116,7 @@ class BlockerService : AccessibilityService() {
         if (event == null || !Prefs.isEnabled(this)) return
         val pkg = event.packageName?.toString()?.lowercase() ?: return
         if (pkg == packageName) return
-        val stateChange = event.eventType == AccessibilityEvent.EVENT_TYPE_WINDOW_STATE_CHANGED
+        val stateChange = event.eventType == AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED
 
         // 1. Blocked apps
         if (stateChange && pkg in Prefs.blockedApps(this)) {
